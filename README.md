@@ -1,5 +1,3 @@
-
-```markdown
 # React-And-API-Integration
 
 This repository contains the implementation of three tasks based on the provided Figma designs. The tasks are implemented using React with Vite and are integrated with the FreeAPI.app. The tasks are as follows:
@@ -90,4 +88,3 @@ The project will be evaluated based on the following criteria:
 - **Email**: [imhimangshumishra@gmail.com](mailto:imhimangshumishra@gmail.com)
 
 For any questions or issues, feel free to reach out.
-

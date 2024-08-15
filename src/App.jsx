@@ -7,7 +7,7 @@ import CatListing from "./components/CatListing";
 
 const App = () => {
   return (
-    <Router>
+    <Router  basename='/'>
       <Navbar />
       <div className="relative min-h-lvh min-w-full bg-green-600 py-10 px-4 overflow-hidden">
         <Routes>

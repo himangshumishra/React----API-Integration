@@ -91,4 +91,3 @@ The project will be evaluated based on the following criteria:
 
 For any questions or issues, feel free to reach out.
 
-```

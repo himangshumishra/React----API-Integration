@@ -48,7 +48,7 @@ const CatListing = () => {
           <button
             disabled={page === 1}
             onClick={() => setPage(page - 1)}
-            className="px-2 py-1 mx-2 bg-blue-500 text-white rounded disabled:bg-gray-400 text-sm"
+            className="px-2 py-1 mx-2 mb-2 bg-blue-500 text-white rounded disabled:bg-gray-400 text-sm"
           >
             Previous
           </button>
@@ -56,7 +56,7 @@ const CatListing = () => {
           <button
             disabled={page === totalPages}
             onClick={() => setPage(page + 1)}
-            className="px-2 py-1 mx-2 bg-blue-500 text-white rounded disabled:bg-gray-400 text-sm"
+            className="px-2 py-1 mx-2 mb-2 bg-blue-500 text-white rounded disabled:bg-gray-400 text-sm"
           >
             Next
           </button>

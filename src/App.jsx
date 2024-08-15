@@ -15,7 +15,7 @@ const App = () => {
           <Route path="/random-user" element={<RandomUser />} />
           <Route path="/random-jokes" element={<RandomJokes />} />
           <Route path="/cats-listing" element={<CatListing />} />
-          <Route path="*" element={<RandomJokes />} />
+          <Route path="*" element={<RandomUser />} />
         </Routes>
       </div>
     </Router>

@@ -14,7 +14,7 @@ const Navbar = () => {
                 alt="man-genie"
                 className="h-12"
               />
-              <span className="text-xl md:text-2xl text-gray-900 font-semibold">
+              <span className="text-xl md:text-2xl text-gray-900 font-semibold mr-3">
                 {location.pathname === "/random-user"
                   ? "Random User"
                   : location.pathname === "/random-jokes"
@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="flex space-x-2 md:space-x-4 text-blue-600 font-bold text-sm md:text-xl">
               {location.pathname !== "/random-user" &&
                 location.pathname !== "/" && (
-                  <a href="/random-user" className="hover:text-blue-500">
+                  <a href="/random-user" className="hover:text-blue-500 mx-5">
                     Random User
                   </a>
                 )}
